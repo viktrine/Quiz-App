@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/topic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quizzes"/>
+
+
+        <TextView
+            android:id="@+id/sum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What is the sum of 1 + 2? "/>
+
+        <RadioButton
+            android:id="@+id/one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"/>
+
+        <RadioButton
+            android:id="@+id/two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2"/>
+
+        <RadioButton
+            android:id="@+id/three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3"/>
+
+        <TextView
+            android:id="@+id/deepest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter the name of the deepest ocean "/>
+
+        <EditText
+            android:id="@+id/ocean"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="ocean"/>
+
+        <TextView
+            android:id="@+id/prog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Which of the following is not a programming language? "/>
+
+        <RadioButton
+            android:id="@+id/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Android"/>
+
+        <RadioButton
+            android:id="@+id/pup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Puppy"/>
+
+        <RadioButton
+            android:id="@+id/php"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PhP"/>
+
+
+        <TextView
+            android:id="@+id/compile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select a valid compiler"/>
+
+        <RadioButton
+            android:id="@+id/c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="c compiler"/>
+
+        <RadioButton
+            android:id="@+id/cint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="c interpreter"/>
+
+
+        <TextView
+            android:id="@+id/useful"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Android programing is useful. True or false  "/>
+
+        <RadioButton
+            android:id="@+id/truee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="True"/>
+
+        <RadioButton
+            android:id="@+id/falsee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="False"/>
+
+
+        <TextView
+            android:id="@+id/intt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Choose a valid Integer"/>
+
+        <RadioButton
+            android:id="@+id/three5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3.5"/>
+
+        <RadioButton
+            android:id="@+id/threee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3"/>
+
+        <TextView
+            android:id="@+id/answers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>
